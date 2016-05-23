@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84d7a03e-379d-418a-bca4-d406d62875a6" name="Default" comment="" />
+    <list default="true" id="84d7a03e-379d-418a-bca4-d406d62875a6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="UniKey.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -642,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1463976107624</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test commit 4">
+      <created>1463977138258</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1463977138258</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -692,7 +701,8 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="test commit 2" />
     <MESSAGE value="test commit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit 3" />
+    <MESSAGE value="test commit 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -858,6 +868,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IdeaIC2016/idea.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
