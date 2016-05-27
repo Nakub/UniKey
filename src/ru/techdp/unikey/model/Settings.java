@@ -2,9 +2,7 @@ package ru.techdp.unikey.model;
 
 import java.util.Arrays;
 
-/**
- * Created by admin on 22.05.2016.
- */
+
 public class Settings {
 
     private final String[][] options;
