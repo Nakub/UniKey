@@ -8,7 +8,7 @@ public class Settings {
     private final String[][] options;
 
     public Settings(String[][] options) {
-        Arrays.sort(options);
+       // Arrays.sort(options);
         this.options = options;
     }
 
@@ -18,3 +18,4 @@ public class Settings {
     }
 
 }
+
