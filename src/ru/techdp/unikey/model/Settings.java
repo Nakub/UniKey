@@ -1,20 +1,35 @@
 package ru.techdp.unikey.model;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 
 public class Settings {
 
-    private final String[][] options;
+    private final ArrayList optionNames;
 
-    public Settings(String[][] options) {
-        Arrays.sort(options);
-        this.options = options;
+    private final ArrayList optionValues;
+
+    public Settings(ArrayList optionNames, ArrayList optionValues) {
+        this.optionNames = optionNames;
+        this.optionValues = optionValues;
     }
 
-    public String getOptionByName(String optionName) {
-        int optionID = Arrays.binarySearch(options, optionName);
-        return options[optionID ][1];
+    public String getOptionByName (String optionName) {
+        int optionIndex = this.optionNames.indexOf(optionName);
+        return (String)this.optionValues.get(optionIndex);
     }
+
+    //    private final String[][] options;
+//
+//    public Settings(String[][] options) {
+//        Arrays.sort(options);
+//        this.options = options;
+//    }
+//
+//    public String getOptionByName(String optionName) {
+//        int optionID = Arrays.binarySearch(options, optionName);
+//        return options[optionID ][1];
+//    }
 
 }
+

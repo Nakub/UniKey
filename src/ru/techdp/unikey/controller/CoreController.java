@@ -3,15 +3,16 @@ package ru.techdp.unikey.controller;
 import ru.techdp.unikey.model.Device;
 import ru.techdp.unikey.model.Glossary;
 
-/**
- * Created by admin on 22.05.2016.
- */
-public class Controller {
+import java.awt.*;
+import java.awt.event.MouseEvent;
+
+
+public class CoreController {
     private final Device inputDevice;
     private final Device outputDevice;
     private final Glossary glossary;
 
-    public Controller(Device inputDevice, Device outputDevice, Glossary glossary) {
+    public CoreController(Device inputDevice, Device outputDevice, Glossary glossary) {
         this.inputDevice = inputDevice;
         this.outputDevice = outputDevice;
         this.glossary = glossary;
@@ -34,5 +35,4 @@ public class Controller {
     public String transmit(int outCommandID) {
         return Converter.outConvert(outputDevice, outCommandID);
     }
-
 }
