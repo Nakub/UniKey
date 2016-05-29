@@ -3,6 +3,9 @@ package ru.techdp.unikey.controller;
 import ru.techdp.unikey.model.Device;
 import ru.techdp.unikey.model.Glossary;
 
+import java.awt.*;
+import java.awt.event.MouseEvent;
+
 
 public class CoreController {
     private final Device inputDevice;
@@ -32,5 +35,4 @@ public class CoreController {
     public String transmit(int outCommandID) {
         return Converter.outConvert(outputDevice, outCommandID);
     }
-
 }
